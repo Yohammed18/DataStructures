@@ -38,6 +38,7 @@ public class BinarySearch {
             count++;
         }
         //the application will return the -1 if the findNumber value is not part of the array
+        System.out.println("The number of steps it took to find the number: "+count);
         return -1;
     }
 }
