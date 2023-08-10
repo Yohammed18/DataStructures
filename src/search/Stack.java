@@ -36,8 +36,14 @@ public class Stack {
         return data;
     }
 
+    public int side(){
+        return top;
+    }
 
+    public boolean isEmpty(){
 
+        return top <= 0;
+    }
 
 
 

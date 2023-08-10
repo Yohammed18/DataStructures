@@ -8,6 +8,8 @@ public class Main {
 
         Stack stack = new Stack(5);
 
+        System.out.println(stack.isEmpty());
+
         stack.push(3);
         stack.push(23);
         stack.push(45);
@@ -20,6 +22,7 @@ public class Main {
         stack.show();
         System.out.println(stack.peak());
 
+        System.out.println(stack.isEmpty());
 
     }
 }
