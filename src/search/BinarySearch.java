@@ -5,8 +5,14 @@ package src.search;
  */
 public class BinarySearch {
 
+    public static void main(String[] args) {
+        int[] sortedArray = { 22, 44, 51, 59, 64, 67, 68, 81, 91, 94, 114, 132, 144, 148, 149, 154, 163, 181, 196, 197};
 
-    public int binarySearch(int[] numbers, int findNumber){
+        System.out.println(binarySearch(sortedArray,92));
+
+    }
+
+    private static int binarySearch(int[] numbers, int findNumber){
 
         //utilize two pointers
         int low = 0;//this pointer will track the begging of the arrays index
