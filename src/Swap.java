@@ -1,9 +1,6 @@
-package src.arrays;
+package src;
 
-import java.util.Arrays;
-
-public class Main {
-
+public class Swap {
 
     public static void main(String[] args) {
         //Arrays
@@ -24,5 +21,14 @@ public class Main {
         }
 
         System.out.println("Index = "+index);
+    }
+
+
+    public static void swap(int[] array, int i, int j){
+        if (i == j) return;
+        //create a temp to hold the array
+        int temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
     }
 }
